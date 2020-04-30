@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pieces",
+  "info": {
+    "name": "piece"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "dateCreated": {
+      "type": "datetime"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
