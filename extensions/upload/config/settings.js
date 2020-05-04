@@ -5,7 +5,7 @@ module.exports = {
         "secretAccessKey": process.env.AWS_SECRET_ACCESS_KEY,
         "region": process.env.AWS_REGION,
         "params": {
-            "Bucket": "rellios-direct-upload"
+            "Bucket": "rellios-direct-uploads"
         }
     },
 };
