@@ -12,9 +12,6 @@
     "title": {
       "type": "string"
     },
-    "dateCreated": {
-      "type": "datetime"
-    },
     "image": {
       "model": "file",
       "via": "related",
@@ -26,6 +23,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "created": {
+      "type": "date"
     }
   }
 }
