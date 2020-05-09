@@ -26,6 +26,15 @@
     },
     "created": {
       "type": "date"
+    },
+    "post": {
+      "model": "post",
+      "via": "piece"
+    },
+    "put_in_portfolio": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

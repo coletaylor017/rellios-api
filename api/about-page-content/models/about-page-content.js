@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `image` model.
+ * Lifecycle callbacks for the `about-page-content` model.
  */
 
 module.exports = {

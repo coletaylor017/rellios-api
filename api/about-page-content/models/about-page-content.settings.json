@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_page_contents",
+  "info": {
+    "name": "aboutPageContent"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
